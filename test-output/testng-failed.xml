@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="actions.PassportForgotPasswordTestSuite">
+        <methods>
+          <include name="ValidEmail"/>
+        </methods>
+      </class> <!-- actions.PassportForgotPasswordTestSuite -->
+      <class name="actions.PassportAdminTestSuite">
+        <methods>
+          <include name="InValidUsernameInvalidPassword"/>
+          <include name="ValidUsernameInvalidPassword"/>
+          <include name="InValidUsernamevalidPassword"/>
+          <include name="ValidUsernameValidPassword"/>
+        </methods>
+      </class> <!-- actions.PassportAdminTestSuite -->
+      <class name="actions.Passport2FATestSuite">
+        <methods>
+          <include name="PassportSecondFactorAuthentication"/>
+          <include name="startUp"/>
+          <include name="InvalidOtp"/>
+          <include name="ResendOtp"/>
+        </methods>
+      </class> <!-- actions.Passport2FATestSuite -->
+      <class name="actions.PassportCreatAccountTestSuite">
+        <methods>
+          <include name="CheckBoxCheck"/>
+          <include name="MobileNumberAlreadyExistCheck"/>
+          <include name="EmptyFirstNameCheck"/>
+          <include name="EmptyConfirmPasswordCheck"/>
+          <include name="InvalidMobileCheck"/>
+          <include name="CreateUserCheck"/>
+          <include name="EmptyLastNameCheck"/>
+          <include name="EmailAlreadyExistCheck"/>
+          <include name="PasswordMismatchCheck"/>
+          <include name="EmptyPassword"/>
+        </methods>
+      </class> <!-- actions.PassportCreatAccountTestSuite -->
+      <class name="actions.UserLoginTest">
+        <methods>
+          <include name="ValidUsernameInvalidPassword"/>
+          <include name="InValidUsernameInvalidPassword"/>
+          <include name="InValid5UsernamevalidPassword"/>
+          <include name="ValidUsernameValidPassword"/>
+        </methods>
+      </class> <!-- actions.UserLoginTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

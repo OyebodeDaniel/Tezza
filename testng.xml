@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="false"
+	preserve-order="true">
+	<test name="Test1">
+		<classes>
+			<class name="actions.UserLoginTest" />
+		</classes>
+	</test>
+
+	<test name="Test2">
+		<classes>
+			<class name="actions.TransactionsMenuTest" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
+<!-- <class name="actions.LoginTestSuite" /> <class name="actions.BuyAirtimeTestSuite" 
+	/> <class name="actions.SavedPaymentSuite" /> <class name="actions.HomeScreenTestSuite" 
+	/> <class name="actions.RecurringTransactionFlow" /> -->

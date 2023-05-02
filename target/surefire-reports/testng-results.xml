@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="151517" started-at="2021-10-12T21:45:47Z" finished-at="2021-10-12T21:48:18Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="114189" started-at="2021-10-12T21:45:47Z" finished-at="2021-10-12T21:47:41Z">
+      <class name="actions.UserLoginTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:actions.UserLoginTest@5d624da6]" name="startUp" is-config="true" duration-ms="18912" started-at="2021-10-12T22:45:47Z" finished-at="2021-10-12T22:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="TestHomePage()[pri:1, instance:actions.UserLoginTest@5d624da6]" name="TestHomePage" duration-ms="70195" started-at="2021-10-12T22:46:06Z" finished-at="2021-10-12T22:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method status="PASS" signature="InvalidUsernameValidPassword()[pri:2, instance:actions.UserLoginTest@5d624da6]" name="InvalidUsernameValidPassword" duration-ms="22445" started-at="2021-10-12T22:47:16Z" finished-at="2021-10-12T22:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameValidPassword -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:actions.UserLoginTest@5d624da6]" name="TearDown" is-config="true" duration-ms="2575" started-at="2021-10-12T22:47:38Z" finished-at="2021-10-12T22:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- actions.UserLoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="37153" started-at="2021-10-12T21:47:41Z" finished-at="2021-10-12T21:48:18Z">
+      <class name="actions.AwaitingApprovalMenuTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:actions.AwaitingApprovalMenuTest@67b6d4ae]" name="startUp" is-config="true" duration-ms="11023" started-at="2021-10-12T22:47:41Z" finished-at="2021-10-12T22:47:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="TestHomePage()[pri:1, instance:actions.AwaitingApprovalMenuTest@67b6d4ae]" name="TestHomePage" duration-ms="24187" started-at="2021-10-12T22:47:52Z" finished-at="2021-10-12T22:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method status="PASS" signature="InvalidUsernameValidPassword()[pri:2, instance:actions.AwaitingApprovalMenuTest@67b6d4ae]" name="InvalidUsernameValidPassword" duration-ms="315" started-at="2021-10-12T22:48:16Z" finished-at="2021-10-12T22:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameValidPassword -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:actions.AwaitingApprovalMenuTest@67b6d4ae]" name="TearDown" is-config="true" duration-ms="1625" started-at="2021-10-12T22:48:16Z" finished-at="2021-10-12T22:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- actions.AwaitingApprovalMenuTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
